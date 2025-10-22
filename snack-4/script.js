@@ -7,3 +7,8 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+// Uso map per estrarre solo la proprietà author da ogni oggetto
+const authors = posts.map(post => post.author);
+
+console.log(authors);
