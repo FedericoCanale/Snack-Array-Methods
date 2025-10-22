@@ -21,3 +21,8 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+// Uso find per trovare lo studente con name 'Marco Lanci' e accedo alla sua proprietà class
+const studentClass = students.find(student => student.name === 'Marco Lanci').class;
+
+console.log(studentClass);
